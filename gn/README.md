@@ -10,12 +10,12 @@ $$b_k=\frac{B_k\zeta(k)}{k},$$
 
 $B_k$ is the $k$-th Bernoulli number and $\zeta(s)$ is the
 Riemann zeta-function.
-According to \cite[the first displayed formula in \S 6]{AM},
+According to the first displayed formula in Section 6,
 we have
-\[
- b_{2l}=(-1)^{l-1}\frac{(2\pi)^{2l}B_{2l}^2}{4l\cdot(2l)!}
-\]
-for $l\in\Z_{\geq 1}$. Since $B_k$ vanishes for odd $k\geq 3$, we find
+
+$$b_{2l}=(-1)^{l-1}\frac{(2\pi)^{2l}B_{2l}^2}{4l\cdot(2l)!}$$
+
+for $l\in\mathbb{Z}\_{\geq 1}$. Since $B_k$ vanishes for odd $k\geq 3$, we find
 
 $$|b_k|=\frac{(2\pi)^{k}B_{k}^2}{2k\cdot k!}$$
 
