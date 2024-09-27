@@ -30,17 +30,9 @@ To run the script, we firstly change the directory [coefficients](https://github
 Then we start Pari/GP and do `\r coefficients.gp`.
 Note that the script uses 128 MB.
 As a result, output the following three files:
-\begin{itemize}
- \item \verb|tCkTout|: save $\widetilde{C}\_l(T)\in\mathbb{Q}[T]$ for $1\leq l\leq 100$ as
-a vector.
-\item \verb|tCkout_pi|: save $\widetilde{C}\_l(T)$ as $\mathbb{Q}$-linear combinations
+* `tCkTout`: save $\widetilde{C}\_l(T)\in\mathbb{Q}[T]$ for $1\leq l\leq 100$ as a vector.
+* `tCkout_pi`: save $\widetilde{C}\_l(T)$ as $\mathbb{Q}$-linear combinations
 of $1,\pi^2,\ldots,\pi^{2l}$ for $1\leq l\leq 100$ as a vector.
-Here \verb|p|$=\pi$.
-\item \verb|tCkout_num|: save numerical values of $\widetilde{C}\_l$ for
+Here `p`$=\pi$.
+* `tCkout_num`: save numerical values of $\widetilde{C}\_l$ for
 $1\leq l\leq 100$ as a vector.
-\end{itemize}
-\begin{thebibliography}{99}
- \bibitem{AM}
-H.~Akatsuka and Y.~Murakami,
-An asymptotic property on a reciprocity law for the Bettin--Conrey
-cotangent sum, {\tt arXiv:2402.14216}.
