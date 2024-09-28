@@ -1,7 +1,7 @@
-In this cite we put the Pari/GP source codes used in the paper
+In this cite we put the Pari/GP source codes used in the paper:
 
 > H. Akatsuka and Y. Murakami, "An asymptotic property on a reciprocity law for the Bettin--Conrey cotangent sum," 
-> [arXiv:2402.14216](https://arxiv.org/abs/2402.14216)
+> [arXiv:2402.14216](https://arxiv.org/abs/2402.14216).
 
 The source codes are modified slightly so as not to overload computers.
 
