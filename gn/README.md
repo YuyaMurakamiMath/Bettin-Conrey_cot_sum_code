@@ -42,8 +42,9 @@ $$\mathcal{I}\_n=-\frac{1}{n+1}+2b_n+2\sum_{j=0}^{n-2}\binom{n-1}{j}b_{j+2}$$
 for $n\in\mathbb{Z}\_{\geq 2}$.
 Since $b_n$ vanishes for odd $n\geq 3$, we notice
 
-$$\mathcal{I}\_{2l}=-\frac{1}{2l+1}+4l\times b_{2l}+\sum_{j=0}^{l-2}\binom{2l-1}{2j}b_{2(j+1)},\\
-\mathcal{I}\_{2l+1}=-\frac{1}{2l+2}+\sum_{j=0}^{l-1}\binom{2l}{2j}b_{2(j+1)}$$
+$$\mathcal{I}\_{2l}=-\frac{1}{2l+1}+4l\times b_{2l}+\sum_{j=0}^{l-2}\binom{2l-1}{2j}b_{2(j+1)},$$
+
+$$\mathcal{I}\_{2l+1}=-\frac{1}{2l+2}+\sum_{j=0}^{l-1}\binom{2l}{2j}b_{2(j+1)}$$
 
 for $l\in\mathbb{Z}\_{\geq 1}$.
 The script [main.gp](https://github.com/YuyaMurakamiMath/Bettin-Conrey_cot_sum_code/blob/main/gn/main.gp) outputs numerical values of $I_n$
